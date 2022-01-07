@@ -52,10 +52,8 @@ export const Project = () => {
 };
 
 export const Recruitment = () => {
-  const [show, setShow] = useState(false);
-  const handleClick = (e) => {
-    setShow(!show);
-  };
+
+ 
   return (
     <>
       <Jobs/>

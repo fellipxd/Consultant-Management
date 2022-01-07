@@ -148,7 +148,7 @@ const AddInstitution = ({handleClick}) => {
             </Row>          
             <Row className="mb-3">
                         <ImageContainer>
-                        <ImageUpload alt="" src={imgData}/>
+                        <ImageUpload alt="" src={imgData} picture={picture}/>
                         </ImageContainer>
                         <Form.Group className="mb-3">
                             <Form.Control type="file"  id="actual-btn" onChange={fileSelectedHandler} accept="image/*"  multiple = "false"  style={{display:'none'}}/>

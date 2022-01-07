@@ -171,7 +171,7 @@ const EditProfile = ({ handleClick }) => {
 
             <Row className="mb-3">
               <ImageContainer>
-                <ImageUpload alt="" src={imgData} />
+                <ImageUpload alt="" src={imgData} picture={picture} />
               </ImageContainer>
               <Form.Group className="mb-3">
                 <Form.Control
