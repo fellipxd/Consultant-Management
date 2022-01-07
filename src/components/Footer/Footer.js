@@ -1,0 +1,67 @@
+import React from 'react'
+import logo from '../../Assets/vkm_logo 1.png'
+import { Link } from 'react-router-dom'
+import { FooterWrapper, Logo, Top, About, AboutText, LogoFooter, Center, Right, FooterLink, Bottom } from './FooterStyled'
+import {BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
+import {FaLinkedinIn} from 'react-icons/fa'
+
+
+
+
+
+const Footer = () => {
+    return (
+        <FooterWrapper>
+          <Top>
+          <About>
+          <div>
+          <Logo>
+               <Link to='/'>
+                 <img src={logo} alt='vkm logo' />
+                 
+               </Link>
+           </Logo>
+           <Link style={{textDecoration:'none', color:'black'}}>VKM-CMS</Link>
+          </div>
+           <AboutText>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+           </AboutText>
+           </About>
+           <Center>
+           <LogoFooter>
+               <Link to='/'>
+                 <BsTwitter style={{color:'white', fontSize:'20px'}}/>
+               </Link>
+           </LogoFooter>
+           <LogoFooter>
+               <Link to='/'>
+                 <FaLinkedinIn style={{color:'white', fontSize:'20px'}}/>
+               </Link>
+           </LogoFooter>
+           <LogoFooter>
+               <Link to='/'>
+                 <BsInstagram style={{color:'white', fontSize:'20px'}} />
+               </Link>
+           </LogoFooter>
+           
+               <Link to='/'>
+                 <BsFacebook style={{fontSize:"30px", color:'2636C3'}} />
+               </Link>
+          
+           </Center>
+           <Right>
+                <FooterLink to='/'> FAQ</FooterLink>
+                <FooterLink to='/'>Pricing</FooterLink>
+                <FooterLink to='/'>Privacy Policy</FooterLink>
+                <FooterLink to='/'> Terms And Conditions</FooterLink>
+           </Right>
+          </Top>
+          <Bottom>
+                
+                <p><span>&copy;</span> Viable Knowledge Masters</p>
+          </Bottom>
+        </FooterWrapper>
+    )
+}
+
+export default Footer

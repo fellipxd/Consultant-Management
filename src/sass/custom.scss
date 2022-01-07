@@ -1,0 +1,35 @@
+
+
+
+
+
+// custom variables
+$primary: #2636C3;
+$secondary: #999;
+$success: #26c349;
+$info: #7854e4;
+$warning: #b8c924;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #343a40;
+
+$accent : #2636C3;
+
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+   // add any additional color below
+  accent: $accent,
+// now bg-accent,btn-accent,etc.. can be called
+);
+
+    
+    // import bootstrap
+    @import '~bootstrap/scss/bootstrap.scss';
