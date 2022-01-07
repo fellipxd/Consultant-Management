@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 const LandingNav = () => {
@@ -24,15 +25,15 @@ const LandingNav = () => {
           </Nav>
 
           <div className="d-flex flex-column flex-lg-row">
-            <a href="/login">
+            <Link to="/login">
               <button
                 type="button"
                 className="btn btn-outline-primary  ms-lg-5"
-                href="/login"
+                
               >
                 SIGN IN
               </button>
-            </a>
+            </Link>
 
             <a href="/signup">
               <button
