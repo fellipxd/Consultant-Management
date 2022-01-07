@@ -40,6 +40,7 @@ const SignUp = () => {
                             </Col>
                             <Col>
                                 <FormWrapper>
+                                    <span>Please use login to view dashboard</span>
                                 <Row className="justify-content-md-center">
                                     <Col xs lg='auto'>
                                         <h4 style={{textAlign:'center' }} variant="primary" md="auto">
