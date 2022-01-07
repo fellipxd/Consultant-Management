@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../../Assets/vkm_logo 1.png'
+
 import { Link } from 'react-router-dom'
-import { FooterWrapper, Logo, Top, About, AboutText, LogoFooter, Center, Right, FooterLink, Bottom } from './FooterStyled'
+import { FooterWrapper, Top, About, AboutText, LogoFooter, Center, Right, FooterLink, Bottom } from './FooterStyled'
 import {BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
 import {FaLinkedinIn} from 'react-icons/fa'
 
