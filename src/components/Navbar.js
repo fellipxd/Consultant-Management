@@ -1,19 +1,12 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../Assets/vkm_logo 1.png";
+
 
 const LandingNav = () => {
   return (
     <Navbar expand="lg" className="bg-white-50">
       <Container>
         <Navbar.Brand href="/" className="align-middle d-flex">
-          <img
-            alt=""
-            src={logo}
-            width="50"
-            height="50"
-            className="d-inline-block align-top"
-          />{" "}
           <h5 className="mt-auto fs-2 ms-3 ">CMS</h5>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

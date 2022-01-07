@@ -15,13 +15,7 @@ const Footer = () => {
           <Top>
           <About>
           <div>
-          <Logo>
-               <Link to='/'>
-                 <img src={logo} alt='vkm logo' />
-                 
-               </Link>
-           </Logo>
-           <Link style={{textDecoration:'none', color:'black'}}>VKM-CMS</Link>
+           <Link style={{textDecoration:'none', color:'black'}}>CMS</Link>
           </div>
            <AboutText>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
@@ -58,7 +52,7 @@ const Footer = () => {
           </Top>
           <Bottom>
                 
-                <p><span>&copy;</span> Viable Knowledge Masters</p>
+                <p><span>&copy;</span> Midas</p>
           </Bottom>
         </FooterWrapper>
     )
