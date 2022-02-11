@@ -1,16 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { data } from "./CardData";
+import { data } from "./CardData"; 
 
 const Card = styled.div`
   background: ${(props) => props.bg};
   display: flex;
-  flex: 1;
+  /* flex: 1; */
+  width: 32%;
   height: 150px;
   padding: 20px 60px;
   align-items: center;
   justify-content: space-between;
-  margin-right: 20px;
+  margin: auto;
   position: relative;
 
   @media screen and (max-width: 1024px) {

@@ -11,7 +11,7 @@ import {
 
 
 const handleLogout = () => {
-  localStorage.clear()
+  localStorage.clear() 
   document.location.href = '/'
  
 }

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const SidebarWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 30px 0;
+  padding:0 10px;
   width: 100%;
   height: 100%;
   justify-content: space-between;
@@ -99,8 +99,8 @@ export const Container = styled.nav`
     --webkit-transition: all 0.5s;
     transition: all 0.5s;
     width: 15vw;
-    height: 85vh;
-    margin-top: 30px;
+    height: 90vh;
+    /* margin-top: 30px; */
     margin-left: 20px;
     background-color: #fff;
     position: relative;

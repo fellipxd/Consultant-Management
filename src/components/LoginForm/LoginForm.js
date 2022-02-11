@@ -66,7 +66,7 @@ const LoginForm = (props) => {
                 <p>Login details</p>
                 <p> user: user@gmail.com password: password</p>
                 <p> super admin: super@gmail.com  password: password</p>
-                <span style={{color: 'red'}}>If invalid user prompts. The backend server requires a couple minutes to startup </span>
+                {/* <span style={{color: 'red'}}>If invalid user prompts. The backend server requires a couple minutes to startup </span> */}
                   {message && (
                     <div className="form-group">
                       <div className="alert alert-danger" role="alert">

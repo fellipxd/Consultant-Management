@@ -8,7 +8,8 @@ import SuperAdminBars from '../DashboardBar/SuperAdminBars'
 const Wrapper = styled.div`
     display: flex;
     width: 100%;
-    padding: 10px;
+    margin-top: 20px;
+    /* padding: 10px; */
     .bar{
         flex: 1;
     }

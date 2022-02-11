@@ -4,12 +4,13 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   width: 100%;
-  height: max-content;
+  border: 1px solid black;
+  height: max-content; 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 
 
   @media screen and (max-width: 768px) {
